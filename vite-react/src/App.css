@@ -1,0 +1,13 @@
+#root {
+  background-color: black;
+  max-width: 100% !important;
+  margin: 0 auto;
+  margin-top: -12px !important;
+  overflow: hidden;  
+  color: white !important;
+}
+
+body, html { /* Apply this to the element with the scrollbar */
+  scrollbar-color: #1e0d0d #1e0d0d; /* Thumb color first, then track color */
+  scrollbar-width: thin; /* or auto, or none */
+}

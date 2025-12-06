@@ -1,0 +1,289 @@
+body {
+  margin-top: 12px !important;
+  background-color: black !important;
+}
+
+.navbar-dark {  
+  color: rgb(80, 67, 67) !important;
+}
+.chkbox {
+  border-width: 3px !important;
+  border-color: black !important;
+}
+.card-h {
+  position: relative;
+  margin-top: 20px !important;
+  width: 100% !important;
+  height: 500vh !important;
+}
+.profile-bg {
+  width: 100% !important;
+  height: 90vh !important;
+  background-color: black !important;
+}
+.card-profile {
+  width: 90% !important;
+  margin: 0 auto;
+}
+.container {
+  scrollbar-width: none;  
+}
+.carousel-hide-scrollbar {
+  overflow-x: hidden;
+}
+
+.card-h {
+  height: 50vh !important;
+}
+.align-left {
+  margin-left: -130px !important;
+  margin-right: 10px !important;
+}
+
+#offcanvasWithBothOptions {
+  width: 60% !important;
+}
+.navbar {
+  padding-top: 10px;
+  margin-bottom: -20px;
+}
+.carousel-inner .carousel-item img {
+  position: relative;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+  width: 100vw !important;
+  height: 500px;
+  object-fit: cover !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px !important;
+  height: 30px !important;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  border-radius: 60% !important;
+  cursor: pointer;
+  background-color: #fefafa;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.9;
+  transition: opacity .6s ease;
+}
+
+.carousel-box {
+  position: relative;
+  margin-top: 20px;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  height: 110vh;
+}
+
+
+.userpicture {
+  width: 190px;
+  font-size: 12px !important;
+}
+
+.userpic {
+  width: 130px;
+  margin-top: -90px !important;  
+  background-color: gray;
+  border-radius: 40px;
+  display: block;
+}
+
+.qrCode1 {
+  width: 200px !important;
+  height: 200px !important;
+  opacity: 0.3;
+}
+.qrCode2 {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover !important;
+}
+
+.user {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.logo {
+  width: 150px;
+  height: 35px;
+}
+.contact-bg {
+  position: relative;
+  left: -1vw;
+  margin-right: -2vw;
+  margin-left: -1vw;
+  max-width: 120% !important;
+  margin-top: 50px !important;
+  width: 105% !important;
+  height: 85vh;
+  background-color: black !important;
+}
+
+.footer-12 {
+  font-size: 12px;
+}
+.card-img {
+  margin: 0 auto;
+  max-width: 100%! important;
+  height: 60vh !important;
+}
+.card-x {
+  margin-top: -50px !important;
+  margin-bottom: 50px !important;
+}
+.txt-justified {
+  text-align: justify !important;
+}
+.footer-contact {
+  position: fixed;
+  width: 100% !important;
+  bottom: 10px !important;
+  align-self: center !important;
+}
+.contact {
+  margin: 0 auto;
+  background-color: black !important;
+  width: 70% !important;
+  margin: 0 auto !important;
+}
+.footer-home {
+  visibility: visible;
+  color: white;
+  background-color: black !important;
+  /* margin-top: 30px !important; */
+  margin-bottom: 30px !important;
+}
+
+.embossed {
+  background-color: #666666;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: #f0f0f0;
+  text-shadow: 1px 4px 4px #555555;
+}
+
+@media (max-width: 991.98px) { 
+  .card-h {
+    height: 200px !important;
+  }
+  .carousel-inner .carousel-item img {
+    height: auto;
+    width: auto;
+    max-width: 100% !important;
+    max-height: 700px !important;
+  }
+  .footer-home {
+    visibility: visible;
+    width: 100% !important;
+    margin-left: 5%;
+  }
+  .carousel-box {
+    position: relative;
+    visibility: visible !important;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw !important;
+    margin-right: -50vw;
+    width: 100vw !important;
+    max-height: 700px !important;
+    top: 10px;
+    bottom: 30px !important; 
+  }
+  .sm {
+    font-size: 10px !important;
+  }
+  .w-80 {
+    max-width: 80% !important;
+    margin: 0 auto;
+  }
+  .img-1 {
+    width: 100% !important;
+    height: 300vh !important;
+    margin: 0 auto;
+  }
+  .footer-contact {
+    width: 90% !important;
+    align-self: center !important;
+  }
+  .contact {
+    width: 100% !important;
+    height: 200vh !important;
+    margin: 0 auto !important;
+  }  
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px !important;
+    height: 10px !important;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    border-radius: 60% !important;
+    cursor: pointer;
+    background-color: #fefafa;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.9;
+    transition: opacity .6s ease;
+  }  
+  .carousel-inner .carousel-item img {
+    position: relative;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    width: 100vw !important;
+    height: 250px;
+  }
+  .contact-bg {
+    position: relative;
+    left: -1vw;
+    margin-right: -2vw;
+    margin-left: -1vw;
+    max-width: 120% !important;
+    margin-top: 50px !important;
+    width: 105% !important;
+    height: 95vh;
+    background-color: black !important;
+  }
+  .about {
+    max-height: 200vh;
+    height: 100vh !important;
+    background-color: rgb(1, 1, 1) !important;
+  }
+ }
+
+ .bg-violet {
+  background-color: blueviolet !important;
+ }
+
+ .btn-violet {
+  background-color: blueviolet !important;
+ }
+
+ .border-emboss {
+  border-width: 1px !important; /* Adjust thickness as needed */
+  border-style: groove; /* or ridge, inset, outset */
+  border-color: #aaa !important; /* A neutral base color for the effect */
+  padding: 15px;
+  background-color: #ddd; /* Background color helps the effect stand out */  
+ }
