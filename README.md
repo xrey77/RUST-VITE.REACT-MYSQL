@@ -1,4 +1,4 @@
-<h3>Ruby 1.91. / Cargo 1.91.1, Vite 7.2.2 + React 19.2.0 and MySql Start-up Project</h3>
+<h3>RUST 1.91. / Cargo 1.91.1, Vite 7.2.2 + React 19.2.0 and MySql Start-up Project</h3>
 
 <p>Dependencies</p>
 <p>1. Node 23.5.0</p>
